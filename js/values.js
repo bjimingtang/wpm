@@ -33,8 +33,7 @@ function resetValues() {
   accuracy = 0;
   characterTyped = 0;
   quoteNo = 0;
-  input_area.disabled = false;
-  gameStarted = true;
+  input_area.disabled = false;  
 
   input_area.value = "";
   quote_text.textContent = 'Click on the area below to start the game.';

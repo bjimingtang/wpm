@@ -92,6 +92,7 @@ function processCurrentText() {
 
 function startGame() {
   if (!gameStarted) {
+    gameStarted = true;
     // initialize all values
     resetValues();
     updateQuote();
