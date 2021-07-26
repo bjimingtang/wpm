@@ -23,6 +23,7 @@ let accuracy = 0;
 let characterTyped = 0;
 let current_quote = "";
 let timer = null;
+let gameStarted = false;
 
 function resetValues() {
   timeLeft = TIME_LIMIT;
@@ -33,6 +34,7 @@ function resetValues() {
   characterTyped = 0;
   quoteNo = 0;
   input_area.disabled = false;
+  gameStarted = true;
 
   input_area.value = "";
   quote_text.textContent = 'Click on the area below to start the game.';
